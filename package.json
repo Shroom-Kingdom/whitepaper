@@ -1,0 +1,6 @@
+{
+  "name": "whitepaper",
+  "devDependencies": {
+    "markdownlint": "^0.23"
+  }
+}

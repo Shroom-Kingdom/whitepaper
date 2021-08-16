@@ -1,0 +1,6 @@
+[book]
+authors = ["Mario Reder <mario.reder@pm.me>"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Shroom Kingdom Whitepaper"
