@@ -14,7 +14,7 @@ The main activities in the game are:
 - [Building new levels](3_Game_Activities/1_Building_Levels.md)
 - [Playing existing levels](3_Game_Activities/2_Playing_Levels.md)
 - [Participating in challenges to win leaderboard prices](3_Game_Activities/3_Challenges.md)
-- [Virtual lands](3_Game_Activities/4_Virtual_Lands.md)
+- [Super Virtual Worlds](3_Game_Activities/4_Super_Virtual_World.md)
 
 Players can earn tokens by participating in these game activities.
 The native token that will be used for all activities is called Shroom (SHRM).
