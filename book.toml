@@ -4,3 +4,6 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Shroom Kingdom Whitepaper"
+
+[output.html]
+default-theme = "ayu"
