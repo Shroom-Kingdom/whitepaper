@@ -18,7 +18,10 @@ jobs:
           cargo install-update -a
 
       - name: Build and test site
-        run: mdbook build && mdbook test
+        run: |
+          mdbook build
+          mdbook test
+          cp CNAME ./book/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
