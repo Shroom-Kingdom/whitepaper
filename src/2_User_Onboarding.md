@@ -5,8 +5,10 @@ To use all features of the platform a user must create and connect a [NEAR walle
 
 To make the onboarding process of new players from Web2 as easy as possible,
 there will alternatively be an option to create an account via Discord OAuth2 login.
-The user will only be able to do in-game activities that do not involve usage of the SHRM token.
-Once the user connects a wallet to his existing account, he can use all features from the game.
+A wallet will be generated for the user, which will be managed by the application.
+The application will keep track of how many SHRM tokens the user posseses.
+The user can always decide to claim his account by creating a key pair and asking the application
+to transfer ownership.
 
 The onboarding process of new players is free as there is no investment required to play the game.
 Players can start earning SHRM tokens by playing levels.
