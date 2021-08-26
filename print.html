@@ -187,14 +187,50 @@ technologies with astounding UX.</p>
 <h2 id="speedruns"><a class="header" href="#speedruns">Speedruns</a></h2>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="virtual-lands"><a class="header" href="#virtual-lands">Virtual Lands</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="token-economics"><a class="header" href="#token-economics">Token Economics</a></h1>
+<p>The native Fungible Token for Shroom Kingdom is called Shroom and has the symbol SHRM.
+Fungible Tokens do not differ from each other and are a common way to develop &quot;money-like&quot; tokens.</p>
+<p>Since SHRM is commonly minted by playing on Shroom Kingdom, there is no upper limit.
+Instead, a constant minting and burning mechanism should make sure, that the token's value
+won't suffer from inflation or deflation.</p>
+<p>Also keep in mind, that this document often talks about minting, but in fact the tokens
+do not yet exist on-chain.
+Instead they will be stored in an off-chain database first.
+The user can then decide to mint its SHRM tokens by calling a Smart Contract.
+This mechanism is explained more in depth in the <a href="4_Token_Economics.html#smart-contract-details">Smart Contract details</a></p>
+<h2 id="minting-and-burning"><a class="header" href="#minting-and-burning">Minting and burning</a></h2>
+<p>SHRM tokens will be minted by one of the following tasks:</p>
+<ul>
+<li>finishing a level (max 5 x 1 SHRM / day)</li>
+<li>voting/rating a level (max 1 x 3 SHRM / day)</li>
+<li>daily challenges (5 SHRM / day)</li>
+<li>passive generation while others play own levels (max 8 SHRM / day).</li>
+</ul>
+<p>SHRM tokens will be burned by one of the following tasks:</p>
+<ul>
+<li>unlocking new building blocks and entities that can be placed in levels (token amount varies)</li>
+<li>minting of levels (100 SHRM)</li>
+<li>challenge passes (tbd)</li>
+<li>virtual land acquisition and NFTs involved (tbd)</li>
+</ul>
+<p>Since Shroom Kingdom will launch with relatively few game mechanics as a Minimum Viable Product,
+there won't be many ways for burning SHRM tokens.
+Once more game mechanics will be implemented, there will also be more ways to burn tokens.
+To prevent inflation in the early days after launch, a multiplier will be applied to all previously
+mentioned minting mechanisms.</p>
+<p>To make sure that every kind of player enjoys playing on Shroom Kingdom, the SHRM token minting
+will be capped at 13 SHRM per day (8 SHRM for playing/building + 5 SHRM for daily).
+Players can either decide whether they want to earn their tokens by playing or by building levels
+or by a combination of both.</p>
+<h2 id="initial-shrm-token-launch--funding"><a class="header" href="#initial-shrm-token-launch--funding">Initial SHRM token launch &amp; funding</a></h2>
 <ul>
 <li>
-<p>initial SHRM token generation of 20mm</p>
+<p>initial SHRM token generation of 10mm</p>
 <ul>
-<li>15% founder (=3mm)</li>
-<li>35% DAO (=7mm)</li>
-<li>25% IDO (=5mm)</li>
-<li>25% Liquidity (=5mm)</li>
+<li>15% founder (=1.5mm)</li>
+<li>40% DAO (=4mm)</li>
+<li>20% IDO (=2mm)</li>
+<li>20% Liquidity (=2mm)</li>
+<li>5% Airdrops (=0.5mm)</li>
 </ul>
 </li>
 <li>
@@ -204,26 +240,8 @@ technologies with astounding UX.</p>
 <li>75% DAO</li>
 </ul>
 </li>
-<li>
-<p>SHRM minting by playing the game, e.g.</p>
-<ul>
-<li>finishing a level (max 5 x 1 SHRM / day)</li>
-<li>voting/rating a level (max 1 x 3 SHRM / day)</li>
-<li>daily challenges (5 SHRM / day)</li>
-<li>passive generation while others play own levels (max 10 SHRM / day).
-Difficulty to earn max SHRM reward increases over time</li>
 </ul>
-</li>
-<li>
-<p>SHRM burning for</p>
-<ul>
-<li>unlocking new building blocks and entities that can be placed in levels (varies between 20 - 100 SHRM)</li>
-<li>minting of levels (100 SHRM)</li>
-<li>challenge passes (tbd)</li>
-<li>virtual land acquisition and NFTs involved (tbd)</li>
-</ul>
-</li>
-</ul>
+<h2 id="smart-contract-details"><a class="header" href="#smart-contract-details">Smart Contract details</a></h2>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="usps"><a class="header" href="#usps">USPs</a></h1>
 <ul>
 <li>NEAR Protocol (low fees, UX, scaling, climate neutral)</li>
