@@ -31,6 +31,7 @@
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+                <link rel="stylesheet" href="src/css/main.css">
         
             </head>
     <body>
@@ -82,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="1_Introduction.html"><strong aria-hidden="true">1.</strong> Shroom Kingdom</a></li><li class="chapter-item expanded "><a href="2_User_Onboarding.html"><strong aria-hidden="true">2.</strong> User Onboarding</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/index.html"><strong aria-hidden="true">3.</strong> Game Activities</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="3_Game_Activities/1_Building_Levels.html"><strong aria-hidden="true">3.1.</strong> Building Levels</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/2_Playing_Levels.html"><strong aria-hidden="true">3.2.</strong> Playing Levels</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/3_Challenges.html"><strong aria-hidden="true">3.3.</strong> Challenges</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/4_Super_Virtual_World.html"><strong aria-hidden="true">3.4.</strong> Virtual Lands</a></li></ol></li><li class="chapter-item expanded "><a href="4_Token_Economics.html"><strong aria-hidden="true">4.</strong> Token Economics</a></li><li class="chapter-item expanded "><a href="5_USPs.html" class="active"><strong aria-hidden="true">5.</strong> USPs</a></li><li class="chapter-item expanded "><a href="6_Decentralized_Organization.html"><strong aria-hidden="true">6.</strong> Decentralized Organization</a></li></ol>            </div>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="1_Introduction.html"><strong aria-hidden="true">1.</strong> Shroom Kingdom</a></li><li class="chapter-item expanded "><a href="2_User_Onboarding.html"><strong aria-hidden="true">2.</strong> User Onboarding</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/index.html"><strong aria-hidden="true">3.</strong> Game Activities</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="3_Game_Activities/1_Building_Levels.html"><strong aria-hidden="true">3.1.</strong> Building Levels</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/2_Playing_Levels.html"><strong aria-hidden="true">3.2.</strong> Playing Levels</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/3_Challenges.html"><strong aria-hidden="true">3.3.</strong> Challenges</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/4_Super_Virtual_World.html"><strong aria-hidden="true">3.4.</strong> Virtual Lands</a></li></ol></li><li class="chapter-item expanded "><a href="4_Token_Economics.html"><strong aria-hidden="true">4.</strong> Token Economics</a></li><li class="chapter-item expanded "><a href="5_USPs.html" class="active"><strong aria-hidden="true">5.</strong> USPs</a></li><li class="chapter-item expanded "><a href="6_DAO.html"><strong aria-hidden="true">6.</strong> DAO</a></li></ol>            </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
@@ -143,12 +144,81 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="usps"><a class="header" href="#usps">USPs</a></h1>
+                        <h1 id="unique-selling-propositions"><a class="header" href="#unique-selling-propositions">Unique Selling Propositions</a></h1>
+<p>This chapter discusses several USPs, that make Shroom Kingdom unique and valuable.</p>
+<h2 id="near-protocol"><a class="header" href="#near-protocol">NEAR Protocol</a></h2>
+<p>Shroom Kingdom will be developed on NEAR Protocol, which is a Smart Contract capable layer-one blockchain.</p>
+<p>NEAR Protocol wants to solve scaling issues of prior blockchains by introducing a sharded architecture.
+With a block time of about 1 second and very low gas fees, transactions are both fast and cheap.
+The sharding architecture makes sure, that these metrics won't change with an increasing amount of transactions.
+NEAR Protocol is also
+<a href="//near.org/blog/near-climate-neutral-product/" target="_blank" rel="noreferrer noopener">
+certified climate neutral<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+<polyline points="15 3 21 3 21 9"></polyline>
+<line x1="10" y1="14" x2="21" y2="3"></line>
+</svg></a> by supporting green projects.
+Another aspect about NEAR Protocol is its focus on User Experience,
+which includes the smooth user onboarding process but also for developers the ease of use of building Web3 applications.</p>
+<h2 id="technology-stack"><a class="header" href="#technology-stack">Technology stack</a></h2>
+<p>The game itself will be a web application.
+It runs in browsers via Rust compiled to WebAssembly and uses WebGL2 for rendering.</p>
+<p>WebAssembly is a new binary format for the web, that has been available in all major browsers since 2018.
+Ever since then it found its way into other environments like &quot;regular&quot; backends, serverless and blockchain.
+The reason behind this is its built in portability and security.
+WebAssembly is meant to be a common compilation target for many programming languages,
+which makes it possible to allow cross language communication via
+<a href="//hacks.mozilla.org/2019/08/webassembly-interface-types/" target="_blank" rel="noreferrer noopener">
+Interface Types<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+<polyline points="15 3 21 3 21 9"></polyline>
+<line x1="10" y1="14" x2="21" y2="3"></line>
+</svg></a>.</p>
+<p>NEAR Protocol also allows building Smart Contracts that compile to WebAssembly.
+This approach of building Smart Contracts has the extreme advantage over other Smart Contract capable blockchains,
+that developers have a choice of what programming language they want to use.
+NEAR Protocol already allows building Smart Contracts with their
+<a href="//github.com/near/near-sdk-rs" target="_blank" rel="noreferrer noopener">Rust SDK<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+<polyline points="15 3 21 3 21 9"></polyline>
+<line x1="10" y1="14" x2="21" y2="3"></line>
+</svg></a>
+or <a href="//github.com/near/near-sdk-as" target="_blank" rel="noreferrer noopener"
+>AssemblyScript SDK<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+<polyline points="15 3 21 3 21 9"></polyline>
+<line x1="10" y1="14" x2="21" y2="3"></line>
+</svg></a>.
+Both these languages pioneer the WebAssembly format and are considered the best choice,
+if you want to compile to WebAssembly.</p>
+<p>The app will also be built as a Progressive Web App (PWA).
+PWAs let you install web applications to your home screen and allow client side caching.
+Depending on the platform, the process for this is slightly different and eventually
+only specific browsers will be able to do so.
+PWAs launch in full screen and will automatically be updated on a cache miss with the new version of the application.
+The distribution of PWAs doesn't happen from centralized app stores, which fits into the idea of blockchain.</p>
+<p>As backend technologies Shroom Kingdom will use
+<a href="//workers.cloudflare.com" target="_blank" rel="noreferrer noopener">CloudFlare Workers<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+<polyline points="15 3 21 3 21 9"></polyline>
+<line x1="10" y1="14" x2="21" y2="3"></line>
+</svg></a>,
+which is a serverless edge computing environment.
+Edge computing is a terminology focused on bringing computing as close to the source of data as possible in
+order to reduce latency and bandwidth use.
+Serverless is a way of running stateless functions on a cloud server.
+It is another abstraction layer above cloud computing and uses a pay-per-use model rather than having running server costs.
+You also don't have to care about scaling your backend,
+because serverless functions automatically scale with the amount of requests.
+Other resources that the serverless functions depend on
+can still become a bottleneck in the overall architecture of the application, e.g. the database.</p>
+<h2 id="gaming--earning"><a class="header" href="#gaming--earning">Gaming &amp; earning</a></h2>
 <ul>
-<li>NEAR Protocol (low fees, UX, scaling, climate neutral)</li>
-<li>WebAssembly/Rust</li>
-<li>PWA. Omit app stores governed by centralized institutions</li>
-<li>usage of decentralized database (ThreadDB) and serverless functions. Almost unlimited automatic scalability</li>
 <li>familiar gaming characters</li>
 <li>play-to-earn with passive income</li>
 <li>free-to-play. No initial investment needed</li>
@@ -162,7 +232,7 @@
                                 <i class="fa fa-angle-left"></i>
                             </a>
                         
-                                                    <a rel="next" href="6_Decentralized_Organization.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                                    <a rel="next" href="6_DAO.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -176,7 +246,7 @@
                         <i class="fa fa-angle-left"></i>
                     </a>
                 
-                                    <a rel="next" href="6_Decentralized_Organization.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                    <a rel="next" href="6_DAO.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                             </nav>
@@ -200,6 +270,7 @@
         <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
+                <script type="text/javascript" src="src/js/plausible.js"></script>
         
         
     </body>

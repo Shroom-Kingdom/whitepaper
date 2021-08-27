@@ -31,6 +31,7 @@
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+                <link rel="stylesheet" href="src/css/main.css">
         
             </head>
     <body>
@@ -82,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="1_Introduction.html"><strong aria-hidden="true">1.</strong> Shroom Kingdom</a></li><li class="chapter-item expanded "><a href="2_User_Onboarding.html"><strong aria-hidden="true">2.</strong> User Onboarding</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/index.html"><strong aria-hidden="true">3.</strong> Game Activities</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="3_Game_Activities/1_Building_Levels.html"><strong aria-hidden="true">3.1.</strong> Building Levels</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/2_Playing_Levels.html"><strong aria-hidden="true">3.2.</strong> Playing Levels</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/3_Challenges.html"><strong aria-hidden="true">3.3.</strong> Challenges</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/4_Super_Virtual_World.html"><strong aria-hidden="true">3.4.</strong> Virtual Lands</a></li></ol></li><li class="chapter-item expanded "><a href="4_Token_Economics.html" class="active"><strong aria-hidden="true">4.</strong> Token Economics</a></li><li class="chapter-item expanded "><a href="5_USPs.html"><strong aria-hidden="true">5.</strong> USPs</a></li><li class="chapter-item expanded "><a href="6_Decentralized_Organization.html"><strong aria-hidden="true">6.</strong> Decentralized Organization</a></li></ol>            </div>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="1_Introduction.html"><strong aria-hidden="true">1.</strong> Shroom Kingdom</a></li><li class="chapter-item expanded "><a href="2_User_Onboarding.html"><strong aria-hidden="true">2.</strong> User Onboarding</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/index.html"><strong aria-hidden="true">3.</strong> Game Activities</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="3_Game_Activities/1_Building_Levels.html"><strong aria-hidden="true">3.1.</strong> Building Levels</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/2_Playing_Levels.html"><strong aria-hidden="true">3.2.</strong> Playing Levels</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/3_Challenges.html"><strong aria-hidden="true">3.3.</strong> Challenges</a></li><li class="chapter-item expanded "><a href="3_Game_Activities/4_Super_Virtual_World.html"><strong aria-hidden="true">3.4.</strong> Virtual Lands</a></li></ol></li><li class="chapter-item expanded "><a href="4_Token_Economics.html" class="active"><strong aria-hidden="true">4.</strong> Token Economics</a></li><li class="chapter-item expanded "><a href="5_USPs.html"><strong aria-hidden="true">5.</strong> USPs</a></li><li class="chapter-item expanded "><a href="6_DAO.html"><strong aria-hidden="true">6.</strong> DAO</a></li></ol>            </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
@@ -176,29 +177,188 @@ To prevent inflation in the early days after launch, a multiplier will be applie
 mentioned minting mechanisms.</p>
 <p>To make sure that every kind of player enjoys playing on Shroom Kingdom, the SHRM token minting
 will be capped at 13 SHRM per day (8 SHRM for playing/building + 5 SHRM for daily).
-Players can either decide whether they want to earn their tokens by playing or by building levels
+Players can either decide whether they want to earn their tokens by playing or building levels
 or by a combination of both.</p>
 <h2 id="initial-shrm-token-launch--funding"><a class="header" href="#initial-shrm-token-launch--funding">Initial SHRM token launch &amp; funding</a></h2>
+<p>Shroom Kingdom will be community funded.
+No Venture Capital is involved.
+An initial <a href="//www.sputnik.fund/#/dao/humanguild.sputnikdao.near/proposals/25" target="_blank" rel="noreferrer noopener">
+funding round<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+<polyline points="15 3 21 3 21 9"></polyline>
+<line x1="10" y1="14" x2="21" y2="3"></line>
+</svg></a> also happened with
+<a href="//humanguild.io/" target="_blank" rel="noreferrer noopener">Human Guild<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+<polyline points="15 3 21 3 21 9"></polyline>
+<line x1="10" y1="14" x2="21" y2="3"></line>
+</svg></a>.</p>
+<p>For the initial distribution of the token, 10 million SHRM tokens will be minted on launch.
+These tokens will be distributed as the following:</p>
+<script type="text/javascript" src="//cdn.amcharts.com/lib/4/core.js"></script>
+<script type="text/javascript" src="//cdn.amcharts.com/lib/4/charts.js"></script>
+<script type="text/javascript" src="//cdn.amcharts.com/lib/4/themes/dark.js"></script>
+<script type="text/javascript">
+  am4core.useTheme(am4themes_dark);
+  var chart = am4core.createFromConfig({
+    series: [{
+      type: "PieSeries3D",
+      dataFields: {
+        value: "share",
+        category: "category"
+      },
+      slices: {
+        stroke: "#fff",
+        strokeWidth: 2,
+        strokeOpacity: 1,
+        fillOpacity: 1,
+        states: {
+          hover: {
+            properties: {
+              scale: 1,
+              fillOpacity: 0.5
+            }
+          }
+        },
+        propertyFields: {
+          fill: "color"
+        }
+      }
+    }],
+    innerRadius: am4core.percent(40),
+    data: [
+      {
+        category: "founder",
+        share: "1500000",
+        color: "#495fba"
+      },
+      {
+        category: "DAO",
+        share: "4500000",
+        color: "#e8d685"
+      },
+      {
+        category: "IDO",
+        share: "3000000",
+        color: "#ae85c9"
+      },
+      {
+        category: "Liquidity",
+        share: "750000",
+        color: "#c9f0e1"
+      },
+      {
+        category: "Airdrops",
+        share: "250000",
+        color: "#d48652"
+      }
+    ],
+    legend: {
+      valueLabels: {
+        text: "{value.value}"
+      }
+    },
+    numberFormatter: {
+      numberFormat: "#.0a"
+    },
+  }, "token-distribution-chart", am4charts.PieChart3D);
+</script>
+<div id="token-distribution-chart" style="width: 100%; height: 400px; background-color: #282828;" ></div>
+<h2 id="initial-dex-offering-ido"><a class="header" href="#initial-dex-offering-ido">Initial DEX Offering (IDO)</a></h2>
+<p>An Initial DEX Offering is planned to launch on <a href="//skyward.finance/" target="_blank" rel="noreferrer noopener">
+Skyward Finance<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+<polyline points="15 3 21 3 21 9"></polyline>
+<line x1="10" y1="14" x2="21" y2="3"></line>
+</svg></a>.
+The revenue of the IDO will be distributed as the following:</p>
+<script type="text/javascript">
+  am4core.useTheme(am4themes_dark);
+  var chart = am4core.createFromConfig({
+    series: [{
+      type: "PieSeries3D",
+      dataFields: {
+        value: "share",
+        category: "category"
+      },
+      labels: {
+        text: "{category}: {value.percent}%"
+      },
+      slices: {
+        stroke: "#fff",
+        strokeWidth: 2,
+        strokeOpacity: 1,
+        fillOpacity: 1,
+        states: {
+          hover: {
+            properties: {
+              scale: 1,
+              fillOpacity: 0.5
+            }
+          }
+        },
+        propertyFields: {
+          fill: "color"
+        },
+        tooltipText: "{category}: {value.percent}%"
+      }
+    }],
+    innerRadius: am4core.percent(40),
+    data: [
+      {
+        category: "founder",
+        share: "20%",
+        color: "#495fba"
+      },
+      {
+        category: "DAO",
+        share: "55%",
+        color: "#e8d685"
+      },
+      {
+        category: "Liquidity",
+        share: "25%",
+        color: "#c9f0e1"
+      }
+    ],
+    legend: {
+      valueLabels: {
+        text: "{value.percent}%"
+      }
+    },
+    numberFormatter: {
+      numberFormat: "#."
+    },
+  }, "ido-chart", am4charts.PieChart3D);
+</script>
+<div id="ido-chart" style="width: 100%; height: 400px; background-color: #282828;" ></div>
+<p>The IDO will be launched in three phases with increasing token amount,
+because more people will become interested over time about Shroom Kingdom.
+The exact token amounts are:</p>
 <ul>
-<li>
-<p>initial SHRM token generation of 10mm</p>
-<ul>
-<li>15% founder (=1.5mm)</li>
-<li>40% DAO (=4mm)</li>
-<li>20% IDO (=2mm)</li>
-<li>20% Liquidity (=2mm)</li>
-<li>5% Airdrops (=0.5mm)</li>
-</ul>
-</li>
-<li>
-<p>IDO sale for NEAR token. Distribution:</p>
-<ul>
-<li>25% founder</li>
-<li>75% DAO</li>
-</ul>
-</li>
+<li>750,000 SHRM (date will be announced)</li>
+<li>1,000,000 SHRM (two months later)</li>
+<li>1,250,000 SHRM (two months later)</li>
 </ul>
 <h2 id="smart-contract-details"><a class="header" href="#smart-contract-details">Smart Contract details</a></h2>
+<p>The SHRM token Smart Contract needs to be able to mint tokens on demand.
+Since tokens are tracked in an off-chain database before minting,
+the backend would need to read this information.
+Only the backend is allowed to directly read and write values to the database.</p>
+<p>To be able to mint new SHRM tokens, the backend would have to read the pending
+SHRM token rewards from the off-chain database.
+Then it would call the Smart Contract to mint tokens and update the value in the database respectively.
+This approach has the drawback, that it could potentially be exploited,
+since the backend API would have to pay the gas fees for minting SHRM tokens.</p>
+<p>To avoid this problem, a different approach is used where the pending SHRM token rewards will be tracked
+in the Smart Contract itself, which will be updated once per day.
+The user has then the ability to mint tokens himself by calling the Smart Contract.
+As a result the user would have to pay the gas fee for minting and the backend would
+only have to pay the gas fee once per day for updating the pending rewards in the Smart Contract.
+The only disadvantage of this approach is that pending rewards will be locked for at most 24 hours.</p>
 
                     </main>
 
@@ -246,6 +406,7 @@ or by a combination of both.</p>
         <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
+                <script type="text/javascript" src="src/js/plausible.js"></script>
         
         
     </body>
