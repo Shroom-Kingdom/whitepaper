@@ -9,4 +9,4 @@
   - [Virtual Lands](3_Game_Activities/4_Super_Virtual_World.md)
 - [Token Economics](4_Token_Economics.md)
 - [USPs](5_USPs.md)
-- [Decentralized Organization](6_Decentralized_Organization.md)
+- [DAO](6_DAO.md)
