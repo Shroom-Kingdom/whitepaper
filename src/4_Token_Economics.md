@@ -44,6 +44,9 @@ or by a combination of both.
 
 Shroom Kingdom will be community funded.
 No Venture Capital is involved.
+An initial <a href="//www.sputnik.fund/#/dao/humanguild.sputnikdao.near/proposals/25" target="_blank" rel="noreferrer noopener">
+funding round{{#include icons/link.svg}}</a> also happened with
+<a href="//humanguild.io/" target="_blank" rel="noreferrer noopener">Human Guild{{#include icons/link.svg}}</a>.
 
 For the initial distribution of the token, 10 million SHRM tokens will be minted on launch.
 These tokens will be distributed as the following:
@@ -120,7 +123,8 @@ These tokens will be distributed as the following:
 
 ## Initial DEX Offering (IDO)
 
-An Initial DEX Offering is planned to launch on <a href="https://skyward.finance/" target="_blank" rel="noreferrer noopener">Skyward Finance{{#include icons/link.svg}}</a>.
+An Initial DEX Offering is planned to launch on <a href="//skyward.finance/" target="_blank" rel="noreferrer noopener">
+Skyward Finance{{#include icons/link.svg}}</a>.
 The revenue of the IDO will be distributed as the following:
 
 <script type="text/javascript">
