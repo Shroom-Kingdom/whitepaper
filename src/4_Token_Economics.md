@@ -37,7 +37,7 @@ mentioned minting mechanisms.
 
 To make sure that every kind of player enjoys playing on Shroom Kingdom, the SHRM token minting
 will be capped at 13 SHRM per day (8 SHRM for playing/building + 5 SHRM for daily).
-Players can either decide whether they want to earn their tokens by playing or by building levels
+Players can either decide whether they want to earn their tokens by playing or building levels
 or by a combination of both.
 
 ## Initial SHRM token launch & funding
