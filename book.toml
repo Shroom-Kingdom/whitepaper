@@ -9,4 +9,4 @@ cname = "whitepaper.shroomkingdom.net"
 
 [output.html]
 default-theme = "ayu"
-# additional-js = "js/charts.js"
+additional-js = ["src/js/plausible.js"]
