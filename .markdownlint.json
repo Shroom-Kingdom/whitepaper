@@ -8,5 +8,6 @@
   },
   "no-trailing-punctuation": {
     "punctuation": ".,;:。，；："
-  }
+  },
+  "MD033": false
 }
