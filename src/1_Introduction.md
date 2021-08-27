@@ -2,6 +2,11 @@
 
 _Official Shroom Kingdom Whitepaper **DRAFT**_
 
+[![Website](https://img.shields.io/static/v1?label=Website&message=%20&style=for-the-badge)](https://shroomkingdom.net/)
+[![Twitter](https://img.shields.io/twitter/follow/shrm_kingdom?style=for-the-badge&logo=twitter&label=follow&color=00acee)](https://twitter.com/shrm_kingdom)
+[![Discord](https://img.shields.io/discord/168893527357521920?label=Discord&logo=discord&color=7289da&style=for-the-badge)](https://discord.gg/SPZsgSe)
+[![GitHub](https://img.shields.io/github/stars/Shroom-Kingdom?logo=github&label=Github&style=for-the-badge)](https://github.com/Tarnadas/smmdb-api)
+
 Shroom Kingdom is a building and jump'n'run game inspired by Super Mario where anyone can earn tokens by participating
 in the game.
 
