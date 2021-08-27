@@ -42,15 +42,146 @@ or by a combination of both.
 
 ## Initial SHRM token launch & funding
 
-- initial SHRM token generation of 10mm
-  - 15% founder (=1.5mm)
-  - 40% DAO (=4mm)
-  - 20% IDO (=2mm)
-  - 20% Liquidity (=2mm)
-  - 5% Airdrops (=0.5mm)
+Shroom Kingdom will be community funded.
+No Venture Capital is involved.
 
-- IDO sale for NEAR token. Distribution:
-  - 25% founder
-  - 75% DAO
+For the initial distribution of the token, 10 million SHRM tokens will be minted on launch.
+These tokens will be distributed as the following:
+
+<script type="text/javascript" src="//cdn.amcharts.com/lib/4/core.js"></script>
+<script type="text/javascript" src="//cdn.amcharts.com/lib/4/charts.js"></script>
+<script type="text/javascript" src="//cdn.amcharts.com/lib/4/themes/dark.js"></script>
+<script type="text/javascript">
+  am4core.useTheme(am4themes_dark);
+  var chart = am4core.createFromConfig({
+    series: [{
+      type: "PieSeries3D",
+      dataFields: {
+        value: "share",
+        category: "category"
+      },
+      slices: {
+        stroke: "#fff",
+        strokeWidth: 2,
+        strokeOpacity: 1,
+        fillOpacity: 1,
+        states: {
+          hover: {
+            properties: {
+              scale: 1,
+              fillOpacity: 0.5
+            }
+          }
+        },
+        propertyFields: {
+          fill: "color"
+        }
+      }
+    }],
+    innerRadius: am4core.percent(40),
+    data: [
+      {
+        category: "founder",
+        share: "1500000",
+        color: "#495fba"
+      },
+      {
+        category: "DAO",
+        share: "4500000",
+        color: "#e8d685"
+      },
+      {
+        category: "IDO",
+        share: "3000000",
+        color: "#ae85c9"
+      },
+      {
+        category: "Liquidity",
+        share: "750000",
+        color: "#c9f0e1"
+      },
+      {
+        category: "Airdrops",
+        share: "250000",
+        color: "#d48652"
+      }
+    ],
+    legend: {
+      valueLabels: {
+        text: "{value.value}"
+      }
+    },
+    numberFormatter: {
+      numberFormat: "#.0a"
+    },
+  }, "token-distribution-chart", am4charts.PieChart3D);
+</script>
+<div id="token-distribution-chart" style="width: 100%; height: 400px; background-color: #282828;" ></div>
+
+## Initial DEX Offering (IDO)
+
+An Initial DEX Offering is planned to launch on <a href="https://skyward.finance/" target="_blank" rel="noreferrer noopener">Skyward Finance{{#include icons/link.svg}}</a>.
+The revenue of the IDO will be distributed as the following:
+
+<script type="text/javascript">
+  am4core.useTheme(am4themes_dark);
+  var chart = am4core.createFromConfig({
+    series: [{
+      type: "PieSeries3D",
+      dataFields: {
+        value: "share",
+        category: "category"
+      },
+      labels: {
+        text: "{category}: {value.percent}%"
+      },
+      slices: {
+        stroke: "#fff",
+        strokeWidth: 2,
+        strokeOpacity: 1,
+        fillOpacity: 1,
+        states: {
+          hover: {
+            properties: {
+              scale: 1,
+              fillOpacity: 0.5
+            }
+          }
+        },
+        propertyFields: {
+          fill: "color"
+        },
+        tooltipText: "{category}: {value.percent}%"
+      }
+    }],
+    innerRadius: am4core.percent(40),
+    data: [
+      {
+        category: "founder",
+        share: "20%",
+        color: "#495fba"
+      },
+      {
+        category: "DAO",
+        share: "55%",
+        color: "#e8d685"
+      },
+      {
+        category: "Liquidity",
+        share: "25%",
+        color: "#c9f0e1"
+      }
+    ],
+    legend: {
+      valueLabels: {
+        text: "{value.percent}%"
+      }
+    },
+    numberFormatter: {
+      numberFormat: "#."
+    },
+  }, "ido-chart", am4charts.PieChart3D);
+</script>
+<div id="ido-chart" style="width: 100%; height: 400px; background-color: #282828;" ></div>
 
 ## Smart Contract details
