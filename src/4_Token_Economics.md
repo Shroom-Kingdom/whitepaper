@@ -184,4 +184,30 @@ The revenue of the IDO will be distributed as the following:
 </script>
 <div id="ido-chart" style="width: 100%; height: 400px; background-color: #282828;" ></div>
 
+The IDO will be launched in three phases with increasing token amount,
+because more people will become interested over time about Shroom Kingdom.
+The exact token amounts are:
+
+- 750,000 SHRM (date will be announced)
+- 1,000,000 SHRM (two months later)
+- 1,250,000 SHRM (two months later)
+
 ## Smart Contract details
+
+The SHRM token Smart Contract needs to be able to mint tokens on demand.
+Since tokens are tracked in an off-chain database before minting,
+the backend would need to read this information.
+Only the backend is allowed to directly read and write values to the database.
+
+To be able to mint new SHRM tokens, the backend would have to read the pending
+SHRM token rewards from the off-chain database.
+Then it would call the Smart Contract to mint tokens and update the value in the database respectively.
+This approach has the drawback, that it could potentially be exploited,
+since the backend API would have to pay the gas fees for minting SHRM tokens.
+
+To avoid this problem, a different approach is used where the pending SHRM token rewards will be tracked
+in the Smart Contract itself, which will be updated once per day.
+The user has then the ability to mint tokens himself by calling the Smart Contract.
+As a result the user would have to pay the gas fee for minting and the backend would
+only have to pay the gas fee once per day for updating the pending rewards in the Smart Contract.
+The only disadvantage of this approach is that pending rewards will be locked for at most 24 hours.
