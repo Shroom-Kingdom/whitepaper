@@ -7,5 +7,4 @@ title = "Shroom Kingdom Whitepaper"
 
 [output.html]
 default-theme = "ayu"
-additional-js = ["src/js/plausible.js"]
 additional-css = ["src/css/main.css"]
