@@ -56,12 +56,18 @@ These tokens will be distributed as the following:
 <script type="text/javascript" src="//cdn.amcharts.com/lib/4/themes/dark.js"></script>
 <script type="text/javascript">
   am4core.useTheme(am4themes_dark);
-  var chart = am4core.createFromConfig({
+  const mql = window.matchMedia("(max-width: 600px)");
+</script>
+<script type="text/javascript">
+  const shrmChart = am4core.createFromConfig({
     series: [{
       type: "PieSeries3D",
       dataFields: {
         value: "share",
         category: "category"
+      },
+      labels: {
+        disabled: mql.matches
       },
       slices: {
         stroke: "#fff",
@@ -111,7 +117,7 @@ These tokens will be distributed as the following:
     ],
     legend: {
       valueLabels: {
-        text: "{value.value}"
+        text: mql.matches ? "{value.percent}% ({value.value})" : "{value.value}"
       }
     },
     numberFormatter: {
@@ -128,8 +134,7 @@ Skyward Finance{{#include icons/link.svg}}</a>.
 The revenue of the IDO will be distributed as the following:
 
 <script type="text/javascript">
-  am4core.useTheme(am4themes_dark);
-  var chart = am4core.createFromConfig({
+  const idoChart = am4core.createFromConfig({
     series: [{
       type: "PieSeries3D",
       dataFields: {
@@ -137,7 +142,8 @@ The revenue of the IDO will be distributed as the following:
         category: "category"
       },
       labels: {
-        text: "{category}: {value.percent}%"
+        text: "{category}: {value.percent}%",
+        disabled: mql.matches
       },
       slices: {
         stroke: "#fff",
