@@ -11,7 +11,7 @@ Also keep in mind, that this document often talks about minting, but in fact the
 do not yet exist on-chain.
 Instead they will be stored in an off-chain database first.
 The user can then decide to mint its SHRM tokens by calling a Smart Contract.
-This mechanism is explained more in depth in the [Smart Contract details](#smart-contract-details)
+This mechanism is explained more in depth in the [Smart Contract details](#smart-contract-details).
 
 ## Minting and burning
 
@@ -91,7 +91,7 @@ These tokens will be distributed as the following:
     data: [
       {
         category: "founder",
-        share: "1500000",
+        share: "1750000",
         color: "#495fba"
       },
       {
@@ -108,11 +108,6 @@ These tokens will be distributed as the following:
         category: "Liquidity",
         share: "750000",
         color: "#c9f0e1"
-      },
-      {
-        category: "Airdrops",
-        share: "250000",
-        color: "#d48652"
       }
     ],
     legend: {
@@ -121,11 +116,15 @@ These tokens will be distributed as the following:
       }
     },
     numberFormatter: {
-      numberFormat: "#.0a"
+      numberFormat: "#.##a"
     },
   }, "token-distribution-chart", am4charts.PieChart3D);
 </script>
 <div id="token-distribution-chart" style="width: 100%; height: 400px; background-color: #282828;" ></div>
+
+## Airdrop & NFT sale
+
+...
 
 ## Initial DEX Offering (IDO)
 
