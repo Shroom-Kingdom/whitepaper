@@ -7,12 +7,14 @@ _Official Shroom Kingdom Whitepaper **DRAFT**_
 <a href="//discord.gg/SPZsgSe" target="_blank" rel="noreferrer noopener">![Discord](https://img.shields.io/discord/168893527357521920?label=Discord&logo=discord&color=7289da&style=for-the-badge)</a>
 <a href="//github.com/Shroom-Kingdom" target="_blank" rel="noreferrer noopener">![GitHub](https://img.shields.io/github/stars/Shroom-Kingdom?logo=github&label=Github&style=for-the-badge)</a>
 
-Shroom Kingdom is a building and jump'n'run game inspired by Super Mario where anyone can earn tokens by participating
-in the game.
+Shroom Kingdom is a building and jump'n'run game, that is inspired by traditional games of the genre.
+Active players will be rewarded with a token by participating in the game.
 
 All assets that will be used in Shroom Kingdom are user provided.
-To be able to play the game the user must either own a hackable Nintendo Switch and the game Super Mario Maker 2
+Players can either use the original assets from the game Super Mario Maker 2
 or it is alternatively possible to use game modifications with assets that are user created.
+It is not mandatory to use original assets, since once the game launches a good default of assets will be provided.
+Please read the chapter ["How to play"](3_How_To_Play.md) to learn more about the details.
 
 The main activities in the game are:
 
