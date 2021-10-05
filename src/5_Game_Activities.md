@@ -21,7 +21,7 @@ Once a level is ready for public, a user can decide to mint it as an NFT and mak
 In Shroom Kingdom everyone can build his/her own Kingdom!
 
 Super Virtual Worlds (SVW) are a form of Virtual Lands and are our interpretation of
-<a href="//supermariomaker2.fandom.com/wiki/World_Maker" target="_blank" rel="noreferrer noopener">
+<a href="//supermariomaker2.fandom.com/wiki/World_Maker" target="_blank" rel="noopener">
 Super Worlds{{#include icons/link.svg}}</a>.
 SVWs can be purchased on our (upcoming) NFT marketplace in exchange for NEAR tokens.
 

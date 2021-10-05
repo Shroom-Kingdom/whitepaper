@@ -2,10 +2,10 @@
 
 _Official Shroom Kingdom Whitepaper **DRAFT**_
 
-<a href="//shroomkingdom.net/" target="_blank" rel="noreferrer noopener">![Website](https://img.shields.io/static/v1?label=Website&message=%20&style=for-the-badge)</a>
-<a href="//twitter.com/shrm_kingdom" target="_blank" rel="noreferrer noopener">![Twitter](https://img.shields.io/twitter/follow/shrm_kingdom?style=for-the-badge&logo=twitter&label=Twitter&color=00acee)</a>
-<a href="//discord.gg/SPZsgSe" target="_blank" rel="noreferrer noopener">![Discord](https://img.shields.io/discord/168893527357521920?label=Discord&logo=discord&color=7289da&style=for-the-badge)</a>
-<a href="//github.com/Shroom-Kingdom" target="_blank" rel="noreferrer noopener">![GitHub](https://img.shields.io/github/stars/Shroom-Kingdom?logo=github&label=Github&style=for-the-badge)</a>
+<a href="//shroomkingdom.net/" target="_blank" rel="noopener">![Website](https://img.shields.io/static/v1?label=Website&message=%20&style=for-the-badge)</a>
+<a href="//twitter.com/shrm_kingdom" target="_blank" rel="noopener">![Twitter](https://img.shields.io/twitter/follow/shrm_kingdom?style=for-the-badge&logo=twitter&label=Twitter&color=00acee)</a>
+<a href="//discord.gg/SPZsgSe" target="_blank" rel="noopener">![Discord](https://img.shields.io/discord/168893527357521920?label=Discord&logo=discord&color=7289da&style=for-the-badge)</a>
+<a href="//github.com/Shroom-Kingdom" target="_blank" rel="noopener">![GitHub](https://img.shields.io/github/stars/Shroom-Kingdom?logo=github&label=Github&style=for-the-badge)</a>
 
 Shroom Kingdom is a building and jump'n'run game, that is inspired by traditional games of the genre.
 Active players will be rewarded with a token by participating in the game.

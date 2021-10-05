@@ -16,7 +16,7 @@ The community then can make proposals that are then voted for or against within 
 
 ## The Shroom Kingdom DAO
 
-For Shroom Kingdom <a href="//v2.sputnik.fund/#/shrm.sputnik-dao.near" target="_blank" rel="noreferrer noopener">
+For Shroom Kingdom <a href="//v2.sputnik.fund/#/shrm.sputnik-dao.near" target="_blank" rel="noopener">
 Sputnik DAO{{#include icons/link.svg}}</a> will be used.
 This is a DAO of DAOs that has tools to make the process of proposals and votes possible for small DAOs.
 Shroom Kingdom DAO will have a council, which at the time of writing only consists of the founder.
@@ -25,14 +25,14 @@ More members will be added as the project grows and matures.
 The members of the DAO or temporary supporters of the project will be able to receive payouts via Sputnik DAO,
 that will be approved by the council or specific members of it.
 Applications to join the DAO can be made on Shroom Kingdom's
-<a href="//discord.gg/SPZsgSe" target="_blank" rel="noreferrer noopener">Discord server{{#include icons/link.svg}}</a>,
+<a href="//discord.gg/SPZsgSe" target="_blank" rel="noopener">Discord server{{#include icons/link.svg}}</a>,
 where you can find a list of open positions and available tasks.
 
 ## Workload And Payouts
 
 The payout will be in SHRM and depends on the task and position.
 After the succesful launch of the IDO, it will also be possible to get payouts in NEAR for certain tasks and positions.
-In general, to receive payouts you need a <a href="//wallet.near.org/" target="_blank" rel="noreferrer noopener">
+In general, to receive payouts you need a <a href="//wallet.near.org/" target="_blank" rel="noopener">
 NEAR wallet{{#include icons/link.svg}}</a> and there is no predefined workload.
 In general the DAO is looking for self-motivated and self-determined members to join them.
 Every member should be able to do whatever is possible and enjoyable for him, depending on his own circumstances.

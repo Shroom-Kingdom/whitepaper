@@ -44,11 +44,11 @@ or by a combination of both.
 
 Shroom Kingdom will be community funded.
 No Venture Capital is involved.
-An initial <a href="//www.sputnik.fund/#/dao/humanguild.sputnikdao.near/proposals/25" target="_blank" rel="noreferrer noopener">
+An initial <a href="//www.sputnik.fund/#/dao/humanguild.sputnikdao.near/proposals/25" target="_blank" rel="noopener">
 funding round{{#include icons/link.svg}}</a> also happened with
-<a href="//humanguild.io/" target="_blank" rel="noreferrer noopener">Human Guild{{#include icons/link.svg}}</a>.
+<a href="//humanguild.io/" target="_blank" rel="noopener">Human Guild{{#include icons/link.svg}}</a>.
 
-For the initial distribution of the token, 10 million SHRM tokens will be minted on launch.
+For the initial distribution of the token, 15 million SHRM tokens will be minted on launch.
 These tokens will be distributed as the following:
 
 <script type="text/javascript" src="//cdn.amcharts.com/lib/4/core.js"></script>
@@ -91,22 +91,22 @@ These tokens will be distributed as the following:
     data: [
       {
         category: "founder",
-        share: "1750000",
+        share: "1500000",
         color: "#495fba"
       },
       {
         category: "DAO",
-        share: "4500000",
+        share: "7875000",
         color: "#e8d685"
       },
       {
         category: "IDO",
-        share: "3000000",
+        share: "4500000",
         color: "#ae85c9"
       },
       {
         category: "Liquidity",
-        share: "750000",
+        share: "1125000",
         color: "#c9f0e1"
       }
     ],
@@ -116,19 +116,37 @@ These tokens will be distributed as the following:
       }
     },
     numberFormatter: {
-      numberFormat: "#.##a"
+      numberFormat: "#.###a"
     },
   }, "token-distribution-chart", am4charts.PieChart3D);
 </script>
 <div id="token-distribution-chart" style="width: 100%; height: 400px; background-color: #282828;" ></div>
 
-## Airdrop & NFT sale
+The launch of the token will be initiated via a DAO vote on
+<a href="//v2.sputnik.fund/#/shrm.sputnik-dao.near" target="_blank" rel="noopener">SputnikDAO
+{{#include icons/link.svg}}</a>.
 
-...
+The founder's share will be unlocked linearly over 6 years, which results in about 685 tokens per day.
+
+## Airdrops
+
+A token airdrop has been <a href="//shroomkingdom.net/blog/roadmap/" target="_blank" rel="noopener">
+announced{{#include icons/link.svg}}</a> on October 01, 2021.
+The airdrop distribution will immediately follow the token launch and will also be distributed via several DAO proposals.
+The proposals will trigger Smart Contract function calls, which will directly transfer the tokens to eligible accounts.
+The airdrop is meant to support Near early adopters as explained in this
+<a href="//gov.near.org/t/token-airdrops-from-new-projects-of-near-ecosystem-to-near-early-supporters/184/" target="_blank" rel="noopener">
+forum thread{{#include icons/link.svg}}</a>.
+
+An NFT airdrop is also planned with a special founder NFT, which has been
+<a href="//shroomkingdom.net/blog/nft-airdrop/" target="_blank" rel="noopener">announced{{#include icons/link.svg}}</a>
+on September 06, 2021.
+The founder NFT will unlock traits, that can give lifetime boosts to token earnings.
+To unlock traits users need to use a generated referral link to advertise for new members for the platform.
 
 ## Initial DEX Offering (IDO)
 
-An Initial DEX Offering is planned to launch on <a href="//skyward.finance/" target="_blank" rel="noreferrer noopener">
+An Initial DEX Offering is planned to launch on <a href="//skyward.finance/" target="_blank" rel="noopener">
 Skyward Finance{{#include icons/link.svg}}</a>.
 The revenue of the IDO will be distributed as the following:
 
@@ -193,13 +211,11 @@ The revenue of the IDO will be distributed as the following:
 </script>
 <div id="ido-chart" style="width: 100%; height: 400px; background-color: #282828;" ></div>
 
-The IDO will be launched in three phases with increasing token amount,
-because more people will become interested over time about Shroom Kingdom.
-The exact token amounts are:
+The IDO will be launched in three phases as following:
 
-- 750,000 SHRM (date will be announced)
-- 1,000,000 SHRM (two months later)
-- 1,250,000 SHRM (two months later)
+- 1,500,000 SHRM (date will be announced)
+- 1,500,000 SHRM (two months later)
+- 1,500,000 SHRM (two months later)
 
 ## Smart Contract details
 

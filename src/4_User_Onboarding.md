@@ -1,9 +1,9 @@
 # User Onboarding
 
-Shroom Kingdom runs on the <a href="//near.org/" target="_blank" rel="noreferrer noopener">
+Shroom Kingdom runs on the <a href="//near.org/" target="_blank" rel="noopener">
 NEAR Protocol{{#include icons/link.svg}}</a> blockchain.
 To use all features of the platform a user must create and connect a
-<a href="//wallet.near.org/" target="_blank" rel="noreferrer noopener">NEAR wallet{{#include icons/link.svg}}</a>
+<a href="//wallet.near.org/" target="_blank" rel="noopener">NEAR wallet{{#include icons/link.svg}}</a>
 to his account.
 
 To make the onboarding process of new players from Web2 as easy as possible,
