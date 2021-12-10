@@ -37,4 +37,4 @@ NEAR wallet{{#include icons/link.svg}}</a> and there is no predefined workload.
 In general the DAO is looking for self-motivated and self-determined members to join them.
 Every member should be able to do whatever is possible and enjoyable for him, depending on his own circumstances.
 
-For more information about the token economics of SHRM see [Token Economics](4_Token_Economics.md).
+For more information about the token economics of SHRM see [Token Economics](6_Token_Economics.md).
